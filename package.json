@@ -1,0 +1,11 @@
+{
+  "name": "npm-script-graph",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Read-only npm script dependency graph inspector",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  }
+}

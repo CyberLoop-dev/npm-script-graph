@@ -1,0 +1,11 @@
+{
+  "name": "sample-app",
+  "scripts": {
+    "clean": "node tools/clean.js",
+    "build": "npm run clean && npm run compile",
+    "compile": "node tools/compile.js",
+    "test": "npm run build && npm run missing-check",
+    "cycleA": "npm run cycleB",
+    "cycleB": "npm run cycleA"
+  }
+}
